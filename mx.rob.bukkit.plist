@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>my.bukkit</string>
+
+    <!--
+      Please setup the paths to your local and remote bukkits
+    -->
+
+    <key>Program</key>
+    <!-- this is the path to our executable -->
+    <string>/Users/USER/Pictures/bukkit/.sync</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>.sync</string>
+      <!-- Where is our local bukkit? 1/2 -->
+      <string>/Users/USER/Pictures/bukkit</string>
+      <!-- Where should rsync send the generated bukkit to? -->
+      <string>my.server:/path/to/bukkit</string>
+    </array>
+
+    <key>WatchPaths</key>
+    <array>
+      <!-- Once again, where's the local bukkit? 2/2-->
+      <string>/Users/USER/Pictures/bukkit</string>
+    </array>
+
+    <key>KeepAlive</key>
+    <false />
+
+    <key>LowPriorityIO</key>
+    <true/>
+
+    <key>Nice</key>
+    <integer>12</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/USER/Library/Logs/bukkit.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/USER/Library/Logs/bukkit.log</string>
+  </dict>
+</plist>

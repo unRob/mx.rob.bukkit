@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>🚽 Bukkit</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="//rob.mx/css/v5.css" />
+    <link href='//fonts.googleapis.com/css?family=Ropa+Sans|Muli:300,400' rel='stylesheet' type='text/css' />
+    <style>
+      main {
+        max-width: 600px;
+        margin: 1em auto;
+      }
+      li {
+        list-style: none;
+        margin: 1em 0;
+        padding: 0;
+      }
+      a {
+        display: block;
+        height: 100px;
+        background-color: #eee;
+        background-position: center left;
+        background-repeat: repeat-x;
+        border-radius: 2px;
+        overflow: hidden;
+      }
+      span {
+        -webkit-backdrop-filter: blur(2px) saturate(.5);
+        background: linear-gradient(to right,
+          rgba(238,238,238,.9),
+          rgba(238,238,238,.7) 30%,
+          rgba(238,238,238,0) 70%,
+          rgba(238,238,238,0)
+        );
+        display: block;
+        line-height: 100px;
+        padding-left: 1em;
+        border-radius: 2px;
+        overflow: hidden;
+        transition: all .2s ease-out;
+      }
+
+      a:hover span, a:focus span {
+        -webkit-backdrop-filter: blur(0px) saturate(1);
+        transition: all .2s ease-out;
+      }
+
+    </style>
+  </head>
+  <body>
+    <main>
+      <ul>
+        %images%
+      </ul>
+    </main>
+  </body>
+</html>
