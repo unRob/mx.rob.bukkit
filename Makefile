@@ -6,7 +6,8 @@ my.bukkit.plist:
 	$(EDITOR) my.bukkit.plist
 
 setup-bukkit:
-	cp -rv ./template $(LOCAL_BUKKIT)/
+	mkdir -pv $(LOCAL_BUKKIT)/template
+	cp -rv ./template $(LOCAL_BUKKIT)/template
 	cp bukkit.sh $(EXECUTABLE_PATH)
 
 install: my.bukkit.plist

@@ -6,7 +6,8 @@
     <string>my.bukkit</string>
 
     <!--
-      Please setup the paths to your local and remote bukkits
+      Please setup the paths to your local and remote bukkits.
+      After you save this file and exit the editor, we'll continue installing...
     -->
 
     <key>Program</key>

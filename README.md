@@ -1,3 +1,13 @@
-# Bukkit generator
+# A bukkit for your gifs
 
-`make install` will take you on an adventure where you'll setup a launchctl job that listens on a folder, a _local bukkit_, and syncs its contents, along some previews and an index file to your _remote bukkit_ of choice.
+A little script and launchd job that syncs the contents of your local gif bukkit to your remote bukkit of choice.
+
+mx.rob.bukkit will even make a nice HTML index and previews so you can [share your carefully crafted collection](https://bukkit.rob.mx) with the world-wide-web.
+
+# Usage
+
+1. `git clone git@github.com:/unRob/mx.rob.bukkit`
+2. `cd mx.rob.bukkit`
+3. `make install`
+4. ???
+5. ![](http://bukkit.rob.mx/dancin.gif)

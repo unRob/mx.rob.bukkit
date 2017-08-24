@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Bukkit
+# Bukkit sync
 #
 # Roberto Hidalgo, 2017
 # http://bukkit.rob.mx
